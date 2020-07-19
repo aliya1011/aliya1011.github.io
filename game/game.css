@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #272323;
+}
+#wrap {
+    width: 885px;
+    height: 665px;
+    margin: 20px auto;
+    border: 5px solid #c7afec;
+    padding: 0;
+    position: relative;
+    background: #0B0B0B;
+}
+#map {
+    width: 886px;
+    height: 665px;
+    background-color:rgb(228, 228, 228);
+    position: relative;
+}
+table{ 
+    width:0px;
+    height:0px; 
+    /* margin: 100px auto; */
+    border: 0px solid darkgray;
+    position: absolute;
+} 
+td {
+    width: 39px;
+    height: 39px;
+    
+}
+.side{    
+    background-color: #fff;
+    border: 5px solid #c7afec;
+    padding: 10px;
+    width: 180px;
+    height: 645px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.right {
+    position: absolute;
+    right: -220px;
+    top: -5px;
+}
+.left{
+    position: absolute;
+    left: -220px;
+    top: -5px;
+    color: #705697;
+}
+.score {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: rgb(255, 223, 43);
+    font: 700 25px Microsoft YaHei;
+}
+#countdown {
+    position: absolute;
+    top:25%;
+    left: 20%;
+    color: red;
+    font: 700 40px Microsoft YaHei;
+    text-align: center;
+}
+.button {
+    padding: 10px;
+    width: 180px;
+    height: 50px;
+    font: 700 20px Microsoft YaHei;
+    line-height: 22px;
+}
+#start {
+    position: absolute;
+    left: auto;
+    top: 70%;
+    color: #fff;
+    background-color: #99cc99;
+}
+#restart {
+    position: absolute;
+    left: auto;
+    top: 80%;
+    color: #fff;
+    background-color: #99cc99;
+}
+h1 {
+    position: absolute;
+    top: 25px;
+}
+p {
+    position: absolute;
+    top: 410px;
+}
+#home {
+    width: 876px;
+    height: 655px;
+    /* margin: 20px auto; */
+    border: 5px solid #c7afec;
+    padding: 0;
+    position: absolute;
+    background-color: #411b7a;
+    color: white;
+    font: 700 30px Microsoft YaHei;
+    text-align: center;
+    z-index: 1;
+}
+.rule {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    font: 700 14px Microsoft YaHei;
+    color: white;
+}
+.a {
+    top: 10%;
+    background-color: #bcbcde;
+}
+.b {
+    top: 18%;
+    background-color:#436ca8;
+}
+.c {
+    top: 26%;
+    background-color:#efc664;
+}
+.d {
+    top: 34%;
+    background-color:#cb7186;
+}
+.e {
+    top: 42%;
+    background-color:#554161;
+}
+.f {
+    top: 50%;
+    background-color: greenyellow;
+    color: black;
+}
